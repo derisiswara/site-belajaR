@@ -26,13 +26,15 @@ website:
     type: dark
     tools:
       - icon: github
-        href: https://github.com/jadeynryan/parameterized-quarto-workshop
+        href: https://github.com/derisiswara/site-belajaR
         text: GitHub
     contents:
      - href: index.qmd
-       text: Home
-     - href: about.qmd
-       text: Pre-work
+       text: Materi Sharing
+     - href: scriptR.qmd
+       text: Script R
+     - href: dokum.qmd
+       text: Dokumentasi  
 
 format:
   html:

@@ -1,0 +1,49 @@
+project:
+  type: website
+
+execute:
+  freeze: auto
+#  echo: true
+
+website:
+  page-navigation: true
+  title: "Komunitas Belajar R"
+  favicon: "images/logoBelajaR.png"
+  
+  page-footer:
+    left: "&copy; 2025 Deri Siswara"
+    center: "Website built with [Quarto](https://quarto.org/)."
+    right: "Inspired by [jadeyryan](https://jadeyryan.quarto.pub/rladies-abuja-quarto-params/)."
+    background: "#07483f"
+
+  sidebar:
+    background: "#07483f"
+    logo: "images/logoBelajaR.png"
+    logo-alt: "Cascadia R Conf hex sticker on top of JR's cat hex logo joined by a heart with the Quarto hex sticker."
+    pinned: true
+    align: center
+#    style: docked
+#    type: dark
+    tools:
+      - icon: github
+        href: https://github.com/jadeynryan/parameterized-quarto-workshop
+        text: GitHub
+    contents:
+     - href: index.qmd
+       text: Home
+     - href: about.qmd
+       text: Pre-work
+
+format:
+  html:
+    theme: [journal]
+    toc: true
+    smooth-scroll: true
+    link-external-newwindow: true
+    code-link: true
+    code-copy: true
+    code-overflow: scroll
+    mainfont: Atkinson Hyperlegible
+    highlight-style: a11y
+
+

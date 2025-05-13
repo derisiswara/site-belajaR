@@ -1,9 +1,9 @@
 {
     "id": "EF6274EF",
-    "path": "C:/Users/derik/Downloads/site-belajaR/theme.scss",
+    "path": "D:/site-belajaR/theme.scss",
     "project_path": "theme.scss",
     "type": "scss",
-    "hash": "486051183",
+    "hash": "1530423169",
     "contents": "",
     "dirty": false,
     "created": 1746895957199.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "30,22",
+        "cursorPosition": "26,14",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1746896729,
+    "lastKnownWriteTime": 1746897847,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1746896729664,
+    "last_content_update": 1746897847,
     "read_only": false,
     "read_only_alternatives": []
 }

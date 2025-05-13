@@ -14,29 +14,31 @@ website:
     left: "&copy; 2025 Deri Siswara"
     center: "Website built with [Quarto](https://quarto.org/)."
     right: "Inspired by [jadeyryan](https://jadeyryan.quarto.pub/rladies-abuja-quarto-params/)."
-    background: "#07483f"
+    background: "#a98069"
 
   sidebar:
-    background: "#07483f"
+    background: "#a98069"
     logo: "images/logoBelajaR.png"
     logo-alt: "Cascadia R Conf hex sticker on top of JR's cat hex logo joined by a heart with the Quarto hex sticker."
     pinned: true
     align: center
-#    style: docked
-#    type: dark
+    style: docked
+    type: dark
     tools:
       - icon: github
-        href: https://github.com/jadeynryan/parameterized-quarto-workshop
+        href: https://github.com/derisiswara/site-belajaR
         text: GitHub
     contents:
      - href: index.qmd
-       text: Home
-     - href: about.qmd
-       text: Pre-work
+       text: Materi Sharing
+     - href: scriptR.qmd
+       text: Script R
+     - href: dokum.qmd
+       text: Dokumentasi  
 
 format:
   html:
-    theme: [journal]
+    theme: [flatly, theme.scss]
     toc: true
     smooth-scroll: true
     link-external-newwindow: true

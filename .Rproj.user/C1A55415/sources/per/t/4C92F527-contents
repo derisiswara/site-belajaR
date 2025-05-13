@@ -1,11 +1,21 @@
 ---
-title: "site-belajaR"
+title: "Materi Sharing"
 ---
 
-This is a Quarto website.
+::::: table-material
+| Sharing | Material |
+|----------------------|---------------------------|
+| 1| 📂[Data Storytelling dengan R](https://drive.google.com/file/d/1f5i1FpK0B2WwipfdZ9mwF9xnEec7jJGe/view?usp=drive_link)|
+| 2 | 📂[Bedah Buku NLP](https://drive.google.com/file/d/1uhbl87a6jtIfRh_9qNwGQEuzLQzYW4Qa/view?usp=drive_link) |
+| 3 | 📂[Scraping Data](https://drive.google.com/file/d/1ZaIF72lnoyvJ9EIZauebLZSvu9jFu1fY/view?usp=drive_link) |
+| 4 | 📂[Menambang Peluang Sukses Keahlian R](https://drive.google.com/file/d/1SbrLCnFG7RZ_br73PJymt1MBQMa7c-BJ/view?usp=drive_link) |
+ 5 | 📂[Analisis Regresi Linier](https://drive.google.com/file/d/1FzCW9vt0u-T1cMZk02YVb_wHg9sBk6gh/view?usp=drive_link) |
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
+```{=html}
+<style type="text/css">
+    .table-material table thead tr {width: 100%;}
+    .table-material table thead tr th:nth-child(1) { width: 10%; }
+    .table-material table thead tr th:nth-child(2) { width: 90%; }
+</style>
 ```
+:::::
